@@ -1,0 +1,41 @@
+{
+  "theme": "One Dark",
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "buffer_font_family": "Zed Mono",
+  "buffer_line_height": "comfortable",
+
+  "tab_size": 2,
+  "soft_wrap": "none",
+  "show_whitespaces": "selection",
+  "scrollbar": { "show": "never" },
+  "indent_guides": { "enabled": true },
+
+  "format_on_save": "on",
+  "autosave": "on_focus_change",
+
+  "terminal": {
+    "font_family": "Zed Mono",
+    "font_size": 13,
+    "shell": { "program": "/opt/homebrew/bin/fish" }
+  },
+
+  "git": {
+    "inline_blame": { "enabled": true }
+  },
+
+  "vim_mode": false,
+
+  "languages": {
+    "Python": {
+      "language_servers": ["pyright", "ruff"],
+      "format_on_save": { "language_server": { "name": "ruff" } }
+    },
+    "TypeScript": {
+      "language_servers": ["typescript-language-server", "..."]
+    },
+    "JavaScript": {
+      "language_servers": ["typescript-language-server", "..."]
+    }
+  }
+}

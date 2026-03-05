@@ -1,0 +1,28 @@
+[core]
+    excludesfile = ~/.gitignore_global
+    autocrlf = input
+    editor = zed --wait
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = false
+
+[push]
+    autoSetupRemote = true
+
+[color]
+    ui = auto
+
+[alias]
+    lg = log --oneline --graph --decorate --all
+    undo = reset HEAD~1 --mixed
+    save = stash push -m
+    wip = commit -am "WIP"
+
+[diff]
+    colorMoved = default
+
+[merge]
+    conflictstyle = diff3
