@@ -1,3 +1,7 @@
+[user]
+    name = André Renault
+    email = 27972873+oitent@users.noreply.github.com
+
 [core]
     excludesfile = ~/.gitignore_global
     autocrlf = input
